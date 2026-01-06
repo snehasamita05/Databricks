@@ -1,0 +1,11 @@
+-- Databricks notebook source
+-- MAGIC %python
+-- MAGIC # Input: Power and the number of whole numbers (n)
+-- MAGIC n = int(input("Enter the value of n (first n whole numbers): "))
+-- MAGIC power = int(input("Enter the power: "))
+-- MAGIC
+-- MAGIC # Calculate and print the powers of the first n whole numbers
+-- MAGIC print(f"Powers of the first {n} whole numbers raised to the power {power}:")
+-- MAGIC for i in range(n):
+-- MAGIC     print(f"{i}^{power} = {i**power}")
+-- MAGIC
